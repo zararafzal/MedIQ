@@ -4,6 +4,8 @@ from django.http import HttpResponse
 from openai import OpenAI
 from dotenv import load_dotenv
 
+#updated
+
 # Load environment variables from .env file
 load_dotenv()
 key = os.environ.get('API_KEY')
